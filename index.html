@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="page-wrapper">
+        <div class="ds-grid">
+            <div class="column-one">
+                <div class="todo-container">
+                    <div class="todo-title-wrapper">
+                        <h1>TODOLIST</h1>
+                    </div>
+                    <div class="main-container">
+                        <div class="form-wrapper">
+                            <form class="search">
+                                <input type="search" name="searchField" class="input" placeholder="Search" autocomplete="off">
+                            </form>
+                        </div>
+                        <div class="todo-list-container">
+                            <ul>
+                                <li>
+                                    <span>Go to work</span>
+                                    <i>&times;</i>
+                                </li>
+                                <li>
+                                    <span>Read a book</span>
+                                    <i>&times;</i>
+                                </li>
+                                <li>
+                                    <span>Write about something</span>
+                                    <i>&times;</i>
+                                </li>
+                                <li>
+                                    <span>Code</span>
+                                    <i>&times;</i>
+                                </li>
+                                <li>
+                                    <span>Sleep</span>
+                                    <i>&times;</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <form class="add">
+                            <input type="text" name="add-todo" class="input" placeholder="Add Todos" autocomplete="off">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="column-two">
+                <div class="clock-wrapper">
+                    <div class="outline"></div>
+                    <div class="time">
+                        <div class="hour-digit-wrapper">
+                            <div class="val-one">
+                                <span></span>
+                            </div>
+                            <div class="val-two">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="minute-digit-wrapper">
+                            <div class="val-one">
+                                <span></span>
+                            </div>
+                            <div class="val-two">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
